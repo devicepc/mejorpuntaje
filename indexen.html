@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quizz</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body  id="body">
+    <header>
+        <nav >
+            
+            <ul>
+             <!--  <li><a href="#">Inicio</a></li>
+              <li><a href="#">Acerca de </a></li>
+              <li><a href="#">Servicios</a></li>
+              <li><a href="#">FAQ</a></li>
+              <li><a href="#">Contacto</a></li> -->
+              <li><a href="index.html">Inicio </a></li>
+              <li><a href="acerca.html">Acerca de </a></li>
+              <li><a href="./faq.html">FAQ</a></li>
+              <li><a href="./contacto.html"> Contactenos</a></li>
+            </ul>
+            <div class="flags">
+            <a href="./index.html"><img src="./img/spain-flag.png" alt="Español" class="lang"></a>
+        </div>
+            <div class="hide">
+                <i class="fa fa-bars" aria-hidden="true"></i>
+                <img src="./img/menu.png" alt=""> 
+              </div>
+          </nav>
+          
+            <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+            <script>
+              $(".hide").on('click', function() {
+                $("nav ul").toggle('slow');
+              })
+            </script>
+
+     </header>
+     <h1 class="h1tiile">-the game of knowledge-</h1>
+     <p id="NameGame3r" onclick="saveName();"> Click para ingresar tu Nickname</p>
+     <p id="NameGame2r"> </p>
+    <div id="game">
+        <div id="test"></div>
+        <button id="boton">Show result</button>
+        <div id="resultado"></div>
+        <script src="./scripten.js"></script>
+        <script src="puntaje.js"></script>
+
+    </div>
+
+    <!-- fin de nuevo jugo-->
+    <h1 class="TituloH1">Enter the score to see your position</h1>
+    <div id="DataInput">
+        <Input class="InpPunt" placeholder="Enter your name" id="nombre" required value="Anonimus"></Input>
+        <Input class="InpPunt" placeholder="Enter yours points" type="number" id="puntos" required></Input>
+       
+        <button class="BtnData" onclick="cosas()">SAVE</button>
+    </div>
+
+    <div class="puntajesAll">
+        <table class="table" id="tabla">
+            <thead class="thead">
+                <tr>
+                    
+                    <th class="thName">Name</th>
+                    <th class="thName">Points </th>
+                </tr>
+            </thead>
+            <tbody class="tbody">
+                
+                
+
+            </tbody>
+        </table>
+
+    </div>
+   
+    <footer class="footer" id="footer">
+        <div class="infoFooter">
+            <h4>Contact US</h4>
+            <hr style="width: 30%;">
+        <a href="tel:+5982345669354"><h5>Tel: 2XXXXX4 <span class="icon-phone"></span></h5></a>
+        <a href="">send us your comments <span class="icon-contactos"></span></a>
+        
+        
+    </div>
+    
+        <div class="infoFooter">
+            <h4>Social networks</h4>
+            <hr style="width: 30%;">
+        <a href="">Youtube <span class="icon-youtube"></span></a><br><br>
+        <a href="">Instagram <span class="icon-instagram"></span></a><br>
+        </div>
+        <div class="infoFooter">
+            <h4>US</h4>
+            <hr style="width: 30%;">
+            <a href="">CXXXXX</a><br><br>
+            <a href="">Work with us</a><br><br>
+
+            
+        
+        </div>
+        <h4 class="InfoFooterCompany"> CXXXXX</h4>
+        
+    </footer>
+</body>
+</html>

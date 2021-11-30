@@ -1,0 +1,293 @@
+*{
+    font-family: sans-serif;
+}
+
+.flags{
+    margin-top: -50px;
+}
+.flags .lang{
+        height: 50px;
+        width: 50px;
+        display: inline;
+        float: right;
+    
+}
+.TituloH1{
+    margin-top: 70px;
+    margin-left: 70px;
+}
+#DataInput{
+    margin-left: 20%;
+    margin-top: -100px;
+    
+}
+#DataInput .BtnData{
+    margin-top: 150px;
+    font-size: 20px;
+    margin-left: 10%;
+    background-color: #4e94ab;
+    color: #000;
+    border-radius: 10px;
+}
+header{
+    width: 100%;
+    background: #4e94ab;
+}
+
+/* estilo de menu */
+
+/* #btn-menu{
+    display: none;
+}
+header label {
+    display: none;
+    width: 30px;
+    height: 30px;
+    padding: 10px;
+    border-right: 1px, solid #fff;
+}
+header label:hover {
+    cursor: pointer;
+    background: rgba(0, 0, 0, 0.3);
+    height: 100%;
+
+}
+.menu ul{
+    margin: 0;
+    list-style: none;
+    padding: 0;
+    display: flex;
+    
+    
+}
+.menu li {
+    border-right: 1px, solid #FFF;
+}
+.menu li:hover{
+    background: rgba(0, 0,0, 0.3);
+}
+.menu li a {
+    display: block;
+    padding: 15px 20px;
+    color: #fff;
+    text-decoration: none;
+
+} */
+/* estilo de menu */
+
+nav{
+    display: block;
+}
+nav ul {
+    background: #4e94ab;
+    text-align: center;
+    list-style: none;
+    overflow: hidden;
+    
+  
+  }
+  
+  ul li {
+    display: inline-block;
+    padding: 20px;
+    transition: all ease-in-out 250ms;
+  }
+  
+  ul li:hover {
+    background: #4e94ab;
+  }
+  
+  ul li a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .hide {
+    padding: 16px;
+    font-size: 22px;
+    background: #4e94ab;
+    color: white;
+    cursor: pointer;
+    display: none;
+  }
+  .lang{
+    height: 50px;
+    width: 50px;
+    display: inline;
+    float: right;
+    margin-top: -70px;
+
+}
+
+/* fin estilo menu */
+a{
+    color:#f3f6f3 ;
+}
+p{
+    margin-bottom: 0.75em ;
+    line-height: 1.2rem;
+}
+#main{
+    height: auto;
+}
+
+/* estilos de la tabla */
+.table{
+
+    margin-left: 27%;
+    margin-top: 50px;
+    
+}
+.thead{
+    background-color: black;
+    color: #fff;
+    width: 400px;
+    height: 40px;
+   
+}
+.thName{
+    margin-left: 5%;
+    padding-left:  50px;
+    padding-right: 50px;
+    padding-top: 25px;
+    
+}
+.tbody{
+    
+    background-color: #FFF;
+    color: #000;
+    font-size: 20px;
+    text-align: center;
+}
+.td{
+    font-size: 30px;
+    color: rebeccapurple;
+    text-align: center;
+}
+#game{
+    margin-top: 3%;
+    margin-left: 20%;
+}
+.h1tiile{
+    margin-top: 5%;
+    text-align: center;
+}
+#NameGame3r{
+    text-align: center;
+    font-size: 25px;
+    color: rgb(15, 56, 179);
+    font-weight: bolder;
+}
+#boton{
+    margin-left: 10%;
+    margin-top: 30px;
+    background-color: #4e94ab;
+    color: #000;
+    font-size: 20px;
+    border-radius: 10px;
+}
+#NameGame2r{
+   margin-left: 70%;
+   font-size: 30px;
+   color: orange;
+}
+
+#footer{
+    background-color: rgb(75, 74, 74);
+    margin-top: 70px;
+    width: 100%;
+    height: 310px;
+}
+.infoFooter{
+    width: 33%;
+    text-align: center;
+    float: left;
+    color: honeydew;
+    font-size: 20px;
+    background-color: rgb(32, 32, 32);
+    height: 270px;
+}
+
+.infoFooter h4{
+    color: rgb(230, 230, 66);
+}
+
+.infoFooter a:link{
+        color: #FFf;
+        font-size: 22px;
+        text-decoration: none;
+}
+.infoFooter a:active{
+    color: #FFf;
+    font-size: 21px;
+    text-decoration: none;
+}
+.infoFooter a:visited{
+    color: #FFf;
+    font-size: 23px;
+    text-decoration: none;
+}
+.infoFooter a:hover{
+    color: #019395;
+
+    font-size: 23px;
+    text-decoration: none;
+}
+.InfoFooterCompany{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bolder;
+    
+}
+
+@media (max-width:768px) {
+    ul li {
+        width: 100%;
+        padding: 15px;
+        text-align: left;
+      }
+    
+      .hide {
+        display: block;
+      }
+    
+      nav ul {
+      display: none;
+    
+      }
+      #hide{
+          width: 100%;
+      }
+      nav{
+          width: 100%;
+      }
+      .flags{
+            margin-top: 30px;
+      }  
+      
+}
+
+@media (max-width:1072px) {
+    .h1tiile{
+        margin-top: 70px;
+    }
+}
+@media (max-width:770px){
+    #NameGame2r{
+        font-size: 20px;
+    }
+}
+
+@media (max-width:604px){
+    .TituloH1{
+        font-size: 18px;
+        
+    }
+    #DataInput{ 
+     margin-left: 50px;
+
+    }
+    .puntajesAll{
+        margin-left: -70px;
+    }
+}
